@@ -1,0 +1,4 @@
+def last_element(x):
+    n=len(x)
+    print(x[n-1])
+last_element([1,2,3,4])
