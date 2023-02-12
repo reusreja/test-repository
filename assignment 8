@@ -1,0 +1,6 @@
+def insert(x,i,y):
+    for j in range(0,len(y)):
+        x.insert(i,y[j])
+        i+=1
+    print(x)
+insert([1,2,3,4],1,[3,4])
